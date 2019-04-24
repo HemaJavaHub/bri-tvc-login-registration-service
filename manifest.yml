@@ -1,0 +1,7 @@
+---
+applications:
+  - name: login-registration-service
+    memory: 1024M
+    instances: 1
+    random-route: true
+    path: build/libs/login-registration-service.jar
